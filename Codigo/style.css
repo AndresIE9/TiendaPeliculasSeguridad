@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../Imagenes/fondo.webp);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.Menu {
+    width: 15%;
+    margin-right: 5%;
+    overflow: hidden;
+    position: absolute;
+    top: 140px;
+    padding: 0%;
+}
+
+.Menu a { /* inicio y pelicula*/
+    box-sizing: border-box;
+    margin: 0px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 20px;
+    display: block;
+}
+
+.Menu li a:hover {  /* para que salga en azul cuando el cursor esta encima del menu*/
+    background-color: rgb(98, 209, 209);
+    color: black;
+}
+
+.Menu li ul { /* para que salgan ocultos los despegables del menu*/
+    display: none;
+    position: static;
+}
+
+.Menu li:hover>ul { /* para que salga despegable en menu*/
+    display: block;
+}
+
+
+#fondo {
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-right: 5%;
+    position: relative;
+    display: inline-block;
+}
